@@ -1,0 +1,23 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "This a just javascript coding session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilrathod098/JavaScript.git"
+  },
+  "keywords": [
+    "javascript",
+    "coding"
+  ],
+  "author": "Sunil Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilrathod098/JavaScript/issues"
+  },
+  "homepage": "https://github.com/sunilrathod098/JavaScript#readme"
+}
