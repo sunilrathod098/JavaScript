@@ -28,11 +28,15 @@
 - Asynchronous operations (like setTimeout) are sent to the event loop, which executes them after the specified delay when the call stack is clear.
 
 
-```console.log('start');```
-```setTimeout(() => {```
-```console.log("Delayed for 1 second.");```
-```}, 2000);```
-```console.log('end')```
+```javascript
+console.log('start');
+
+setTimeout(() => {
+    console.log("Delayed for 1 second.");
+}, 2000);
+
+console.log('end');
+
 
 - Note Above Code- This code demonstrates JavaScript's asynchronous behaviour. It logs `start` and `end` immediately, while the setTimeout schedules the message "Delayed for 1 second." to appear after 2 seconds, showing how asynchronous tasks don't block synchronous code execution.
 
