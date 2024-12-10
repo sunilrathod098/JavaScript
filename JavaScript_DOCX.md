@@ -32,7 +32,7 @@
 setTimeout(() => {
 console.log("Delayed for 1 second.");
 }, 2000);
-console.log('end');```
+console.log('end');
 
 - Note Above Code- This code demonstrates JavaScript's asynchronous behaviour. It logs `start` and `end` immediately, while the setTimeout schedules the message "Delayed for 1 second." to appear after 2 seconds, showing how asynchronous tasks don't block synchronous code execution.
 
